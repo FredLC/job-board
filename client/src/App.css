@@ -39,7 +39,13 @@
 
 .job {
   display: flex;
-  justify-content: space-around;
-  width: 50%;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 70%;
   margin: 20px auto;
+}
+
+.Card {
+  background-color: #272c33;
+  color: white;
 }
