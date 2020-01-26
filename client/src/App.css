@@ -45,7 +45,16 @@
   margin: 20px auto;
 }
 
+.job:hover {
+  cursor: pointer;
+}
+
 .Card {
   background-color: #272c33;
   color: white;
+}
+
+.companyLogo {
+  width: 60px;
+  float: right;
 }

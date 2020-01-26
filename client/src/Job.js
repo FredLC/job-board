@@ -6,9 +6,9 @@ const cardStyle = {
   color: 'white'
 };
 
-const Job = ({ job }) => {
+const Job = ({ job, onClick }) => {
   return (
-    <Card style={cardStyle} className="job">
+    <Card onClick={onClick} style={cardStyle} className="job">
       <div>
         <h3>{job.title}</h3>
         <p>
